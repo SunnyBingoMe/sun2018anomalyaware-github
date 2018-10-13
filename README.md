@@ -6,9 +6,13 @@ We propose to calculate weighted average dynamically according to flow situation
 
 
 # Usage of Code
+python3 540_measurements_and_parameters_py3.py [cv_fold_nr] [anomaly_method_int] [score_method_int] [searchable_method_int] [top_tuple_method_int]
+
+Note:
+
 GPU raw result code is available in repo: [level 1](https://github.com/SunnyBingoMe/code_knn_level1_cuda), which is used to generate parameters' combinations' results.
 
-Note: the implementation is not considering the data as stream as it just make the handling of data non-necessaryly more complex than evaluation's requirement, more like an industry software.
+The implementation is not considering the data as stream as it just make the handling of data non-necessaryly more complex than evaluation's requirement, more like an industry software.
 
 
 # Results
